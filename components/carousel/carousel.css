@@ -78,7 +78,10 @@
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3),
 #slide4:checked ~ .controls label:nth-of-type(4),
-#slide5:checked ~ .controls label:nth-of-type(5) {
+#slide5:checked ~ .controls label:nth-of-type(5),
+#slide6:checked ~ .controls label:nth-of-type(6),
+#slide7:checked ~ .controls label:nth-of-type(7),
+#slide8:checked ~ .controls label:nth-of-type(8) {
 	background: #ddd;
 }
 .slides {
@@ -101,7 +104,11 @@
 #slide2:checked ~ .slider > .slide2,
 #slide3:checked ~ .slider > .slide3,
 #slide4:checked ~ .slider > .slide4,
-#slide5:checked ~ .slider > .slide5 {
+#slide5:checked ~ .slider > .slide5,
+#slide6:checked ~ .slider > .slide6,
+#slide7:checked ~ .slider > .slide7,
+#slide8:checked ~ .slider > .slide8,
+#slide9:checked ~ .slider > .slide9 {
 	opacity: 1;
 	z-index: 1;
 	-webkit-transform: scale(1);
