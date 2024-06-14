@@ -80,3 +80,39 @@ body {
     color: white;
 
 }
+
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.gimg{
+    width: 33%;
+    height: 300px !important;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* .gallery-item {
+    position: relative;
+    overflow: hidden;
+} */
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.02);
+    filter: brightness(90%);
+}
+.gallery-item:hover {
+    opacity: 1;
+}
