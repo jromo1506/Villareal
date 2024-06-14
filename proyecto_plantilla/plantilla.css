@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.flex-c{
+    display: flex;
+    justify-content: center;
+    
+}
+.flex{
+    display: flex;
+    width: 70vw;
+    padding:60px 0px;
+}
+
+.flex-d{
+    display: flex;
+    
+    padding:60px 0px;
+}
+
+.linea {
+    border-top: 1px solid black; /* Establece el borde superior */
+    width: 80vw; /* Opcional: ajusta el ancho de la línea horizontal */
+}
+
+
+.img-cont img{
+    flex: 1;
+    height: 200px;
+}
+
+.text-desc{
+    padding: 20px;
+    width: 80vw;
+}
+
+#imagen {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+}
+
+
+
+.img-cont img{
+    transition: all ease 0.3s;
+    
+}
+.img-cont img:hover{
+    transform: scale(1.2);
+    
+}
+
+.txt-c{
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../img/casa-Eden/3.1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1 {
+    color: white;
+
+}
