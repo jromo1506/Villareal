@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" href="./img/logo-Arq-Villarreal-vector-03.ico" type="image/x-icon">
+
+    <link href="./components/slider1/slider1.css" rel="stylesheet">
+    <link href="./components/header/header.css" rel="stylesheet">
+    <link rel="stylesheet" href="galeria.css">
+    <title>Villareal</title>
+</head>
+<body>
+    <!-- <object data="./components/header/header.html" type="text/html" width="100%"   style="border: none; overflow: hidden;"></object> -->
+    <!-- <object data="./components/slider1/slider1.html" type="text/html" width="100%"  height="600px"  style="border: none; overflow: hidden;"></object> -->
+
+    <!-- HEADER -->
+<div class="header">
+    <div class="h_logo">
+        <img src="./img/logo Arq Villarreal vector-05.png" class="logo">
+    </div>
+
+    <div class="h_opciones">
+        <div><h2 onclick="showDiv(2)">Arquitectura</h2></div>
+        <div><h2 onclick="showDiv(1)">Estudio</h2></div>
+        <!-- <div><h2 onclick="showDiv(3)">Diseño</h2></div> -->
+        <!-- <div><h2 onclick="showDiv(4)">Galería</h2></div> -->
+
+    </div>
+</div>
+
+<div id="div1" class="div-container">
+    <video id="miVideo"  class="video"   autoplay muted>
+        <source src="./img/video.mov" type="video/mp4">
+        Tu navegador no soporta la etiqueta de video.
+    </video>
+
+    <script>
+      
+        var video = document.getElementById('miVideo');
+        video.play();
+        
+    </script>
+    <br><br> <br><br>
+    <div>
+        <h1>Nuestros diseños:</h1>
+    </div>
+    <br><br> <br><br>
+   <!-- SLIDER -->
+   <div class="slider">
+   
+  
+
+    <div class="item">
+        <img src="./img/casa-Eden/3.1.jpg">
+    </div>
+  
+    
+    <div class="item">
+        <img src="./img/casa-Eden/3.2.jpg">
+    </div>
+  
+ 
+    <div class="item">
+        <img src="./img/casa-Eden/3.3.jpg">
+    </div>
+
+   
+    <div class="item">
+        <img src="./img/casa-Eden/3.4.jpg">
+    </div>
+
+    <div class="item">
+        <img src="./img/casa-Eden/3.5.jpg">
+    </div>
+  
+  
+ 
+    <a class="previous" onclick="previousSlide()">&#10094;</a>
+    <a class="next" onclick="nextSlide()">&#10095;</a>
+</div>
+<br><br>
+<div class="slider-info">
+    <h2 style="text-align: center;">Casa Edén</h2><br>
+    <div class="flex-c">
+        <p class="textos">Casa contemporánea se erige como una fusión armoniosa entre la modernidad y la comodidad. Su diseño se centra en la conexión fluida entre el interior y el exterior, aprovechando al máximo la generosa entrada de luz natural a través de sus amplios ventanales.
+
+    </div>
+    <br><br><br><br>  <br><br>   
+
+    </p>
+</div>
+<br><br>
+<object data="./components/slider2/slider2.html" type="text/html" width="100%" height="350px"></object>
+
+<div class="slider-info">
+    <h2 style="text-align: center;">Herradura</h2><br>
+    <div class="flex-c">
+        <p class="textos">Combinamos grandiosidad con una cuidadosa preservación de la privacidad. Desde el exterior, la casa se presenta con una entrada majestuosa, marcada por una puerta principal de diseño único y un amplio camino que conduce a un estacionamiento espacioso.
+
+    </div>
+    <br><br><br><br>  <br><br> 
+    </p>
+</div>
+
+<object data="./components/slider3/slider3.html" type="text/html" width="100%" height="350px"></object>
+
+<div class="slider-info">
+    <h2 style="text-align: center;">Notaria 30</h2><br>
+    <div class="flex-c">
+        <p class="textos">Combinamos grandiosidad con una cuidadosa preservación de la privacidad. Desde el exterior, la casa se presenta con una entrada majestuosa, marcada por una puerta principal de diseño único y un amplio camino que conduce a un estacionamiento espacioso.
+
+    </div>
+    <br><br><br><br>  <br><br> 
+    </p>
+</div>
+
+<object data="./components/slider6/slider6.html" type="text/html" width="100%" height="350px"></object>
+
+<div class="slider-info">
+    <h2 style="text-align: center;">Oficina Bosques</h2><br>
+    <div class="flex-c">
+        <p class="textos">Combinamos grandiosidad con una cuidadosa preservación de la privacidad. Desde el exterior, la casa se presenta con una entrada majestuosa, marcada por una puerta principal de diseño único y un amplio camino que conduce a un estacionamiento espacioso.
+
+    </div>
+    <br><br><br><br>  <br><br> 
+    </p>
+</div>
+
+<object data="./components/slider5/slider5.html" type="text/html" width="100%" height="350px"></object>
+
+<div class="slider-info">
+    <h2 style="text-align: center;">Notaria Bosques</h2><br>
+    <div class="flex-c">
+        <p class="textos">La transparencia de la fachada no solo sirve como una declaración audaz de modernidad, sino que también cumple una función práctica. Es un testimonio de la arquitectura moderna que prioriza la iluminación natural y la conexión con la naturaleza.
+
+    </div>
+
+    </p>
+    
+</div>
+
+<object data="./components/imgCard/imgCard.html" type="text/html" width="100%" height="850px"></object>
+
+
+<!-- <object data="./components/slider4/slider4.html" type="text/html" width="100%" height="350px"></object> -->
+
+
+
+</div>
+ <div id="div2" class="div-container " style="display: none;">
+    <div class="slider-info">
+        <h2 style="text-align: center;">San Angelo</h2><br>
+        <object data="./components/carousel/carousel.html" type="text/html" width="100%" height="400px"></object>
+
+       
+        <div class="flex-c">
+            <p class="textos">Bienvenido a nuestro revolucionario despacho de arquitectura, donde creamos hogares únicos y personalizados que cautivan los sentidos y marcan tendencia. Nos apasiona desafiar los límites convencionales del diseño, y cada casa que construimos es una obra maestra arquitectónica, una manifestación tangible de la individualidad de nuestros clientes.
+                </p>
+        </div>
+        
+
+        <h2 style="text-align: center;">Loretta</h2><br>
+        <object data="./components/carousel2/carousel2.html" type="text/html" width="100%" height="400px"></object>
+
+       
+        <div class="flex-c">
+            <p class="textos">En nuestra búsqueda incansable de la perfección, fusionamos la arquitectura bioclimática con una estética vanguardista y un compromiso inquebrantable con la calidad. Cada proyecto es una oportunidad para crear algo excepcional: espacios habitables que se adaptan al entorno natural, optimizando el uso de la luz, el aire y los materiales sostenibles. Conviértete en el protagonista de una historia arquitectónica sin igual y descubre una nueva dimensión de diseño y confort en tu hogar.</p>
+                </p>
+        </div>
+    
+
+    </div>
+ </div>
+
+ <div id="div2" class="div-container " >
+    <div class="slider-info">
+        <h2 style="text-align: center;">San Angelo</h2><br>
+        <object data="./components/carousel/carousel.html" type="text/html" width="100%" height="400px"></object>
+
+       
+        <div class="flex-c">
+            <p class="textos">Bienvenido a nuestro revolucionario despacho de arquitectura, donde creamos hogares únicos y personalizados que cautivan los sentidos y marcan tendencia. Nos apasiona desafiar los límites convencionales del diseño, y cada casa que construimos es una obra maestra arquitectónica, una manifestación tangible de la individualidad de nuestros clientes.
+                </p>
+        </div>
+        
+
+        <h2 style="text-align: center;">Loretta</h2><br>
+        <object data="./components/carousel2/carousel2.html" type="text/html" width="100%" height="400px"></object>
+
+       
+        <div class="flex-c">
+            <p class="textos">En nuestra búsqueda incansable de la perfección, fusionamos la arquitectura bioclimática con una estética vanguardista y un compromiso inquebrantable con la calidad. Cada proyecto es una oportunidad para crear algo excepcional: espacios habitables que se adaptan al entorno natural, optimizando el uso de la luz, el aire y los materiales sostenibles. Conviértete en el protagonista de una historia arquitectónica sin igual y descubre una nueva dimensión de diseño y confort en tu hogar.</p>
+                </p>
+        </div>
+    
+
+    </div>
+ </div>
+ <div id="div3" class="div-container">
+    
+
+ </div>
+ <div id="div4" class="div-container">
+    
+ </div>
+    
+ </div>
+ <h1>Nueva Fotografia</h1>
+
+ <footer class="foot">
+    <div class="flex">
+        <div class="categ">
+            <div class="nav">
+                <a>Estudio</a> 
+                <a>Arquitectura</a>
+                <a>Producto</a>
+                <a>Branding</a>  
+            </div>
+            <br>
+            <div class="nav nav2">
+                <a>Fabricación interiror</a> 
+                <a>Prensa</a>
+                <a>Contacto</a>
+                <a>Aviso</a>  
+            </div>
+        </div>
+        <br><br>
+        <div class="redes">
+            <div class="logoRed"><img src="./img/logo Arq Villarreal vector-03.png"></div>
+            <div class="nav">
+                <a href="https://www.facebook.com/VillarrealArquitectura">Facebook</a>
+                <a href="https://twitter.com/ramon_esteve">Twitter</a>
+                <a href="https://www.instagram.com/arq.villarreal_/">Instagram</a>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <div class="correo">
+        <p>arq.villareal07@gmail.com</p>
+        <br>
+        <p>© Copyright 2023. Hecho con el corazon por Lightbox mercadotecnia. Todos los derechos reservados. Politica de privacidad. Politica integrada.</p>
+    </div>
+
+ </footer>
+
+<script src="./components/slider1/slider1.js"></script>
+</body>
+
+
+<script>
+    showDiv(1);
+    function showDiv(divNumber) {
+      // Oculta todos los divs
+      var divs = document.getElementsByClassName('div-container');
+      for (var i = 0; i < divs.length; i++) {
+        divs[i].style.display = 'none';
+      }
+
+      // Muestra el div correspondiente al número pasado como parámetro
+      var selectedDiv = document.getElementById('div' + divNumber);
+      if (selectedDiv) {
+        selectedDiv.style.display = 'block';
+      }
+    }
+  </script>
+
+</html>
