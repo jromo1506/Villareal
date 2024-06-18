@@ -1,10 +1,13 @@
 #div4 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin: 0;
     background-color: #f0f0f0;
     font-family: 'Raleway', sans-serif;
+}
+.titulo {
+    padding: 5vh;
 }
 .gimg{
     width: 400px;
